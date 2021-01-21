@@ -1,6 +1,8 @@
 <template>
   <div>
+    <Navbar></Navbar>
     <Nuxt />
+    <div>goodbye worlds</div>
   </div>
 </template>
 
