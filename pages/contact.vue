@@ -6,8 +6,21 @@
           <p class="text-gray-700">I am Currently taking on new projects</p>
       </div>
       
-      <div>
-
+      <div class="mt-16">
+        <div class="flex flex-wrap w-full">
+          <div class="flex flex-col mx-2 flex-grow">
+            <label for="" class="text-center">Name</label>
+            <input type="text" class="bg-gray-100 p-2 rounded shadow" />
+          </div>
+          <div class="flex flex-col mx-2 flex-grow">
+            <label for="" class="text-center">Email</label>
+            <input type="text" class="bg-gray-100 p-2 rounded shadow" />
+          </div>
+        </div>
+        <div class="flex flex-col mx-2 mt-8">
+          <label for="" class="text-center">How Can I help?</label>
+          <textarea name="" id="" cols="30" rows="10" class="bg-gray-100 p-2 rounded shadow"></textarea>
+        </div>
       </div>
   </div>
 </template>
