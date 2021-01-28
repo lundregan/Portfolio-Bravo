@@ -21,6 +21,7 @@
           <label for="" class="text-center">How Can I help?</label>
           <textarea name="" id="" cols="30" rows="10" class="bg-gray-100 p-2 rounded shadow"></textarea>
         </div>
+        <button class="bg-blue-600 text-white float-right rounded shadow-xl m-2 mt-8 p-2 w-32">Send</button>
       </div>
   </div>
 </template>
