@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col justify-between min-h-screen bg-gray-200 dark:bg-gray-700">
+  <div class="flex flex-col justify-between min-h-screen bg-gray-300 dark:bg-gray-900">
     <Navbar />
     <Nuxt />
     <Footer />
