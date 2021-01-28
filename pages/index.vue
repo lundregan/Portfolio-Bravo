@@ -1,13 +1,13 @@
 <template>
   <div class="flex flex-col items-center">
     <div class="text-center">
-      <p class="text-4xl dark:text-blue-600">Ethan Lundregan</p>
-      <p>A Next Generation Developer</p>
+      <p class="text-4xl dark:text-purple-600">Ethan Lundregan</p>
+      <p class="text-gray-800 dark:text-gray-300">A Next Generation Developer</p>
     </div>
     <div class="flex mt-8">
-      <button class="text-white bg-blue-600 rounded m-2 p-2 shadow-md">View My Work</button>
+      <button class="text-white bg-blue-600 dark:bg-purple-600 rounded m-2 p-2 shadow-md">View My Work</button>
       <NuxtLink to="/contact">
-        <button class="text-white bg-blue-600 rounded m-2 p-2 shadow-md">Get In Touch</button>
+        <button class="text-white bg-blue-600 dark:bg-purple-600 rounded m-2 p-2 shadow-md">Get In Touch</button>
       </NuxtLink>
     </div>
   </div>

@@ -3,7 +3,7 @@
     <div
       v-for="domain in domains"
       :key="domain.id"
-      class="bg-blue-400 w-1/5 text-center rounded-t-xl rounded-b-xl"  
+      class="bg-blue-400 dark:bg-purple-600 w-1/5 text-center rounded-t-xl rounded-b-xl"  
     >
       <p class="text-2xl">{{domain.title}}</p>
       <div class="bg-gray-100 rounded-t-xl rounded-b-xl pt-8">

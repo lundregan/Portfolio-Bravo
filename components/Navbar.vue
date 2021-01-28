@@ -5,7 +5,7 @@
         <DarkmodeToggle />
         <p class="pl-2">Lundregan</p> 
       </div>
-      <div class="flex justify-around w-1/2 text-blue-600 text-md">
+      <div class="flex justify-around w-1/2 text-blue-600 dark:text-purple-600 text-md">
         <NuxtLink to="/">Home</NuxtLink>
         <NuxtLink to="/about">About</NuxtLink>
         <NuxtLink to="/projects">Projects</NuxtLink>
