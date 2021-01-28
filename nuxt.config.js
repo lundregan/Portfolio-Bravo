@@ -16,6 +16,10 @@ export default {
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [],
 
+  purgeCSS: {    
+    whitelist: ['dark-mode'],  
+  },
+
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
 
@@ -25,6 +29,7 @@ export default {
     '@nuxt/typescript-build',
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
+    '@nuxtjs/color-mode'
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -44,6 +49,10 @@ export default {
         {
           set:'@fortawesome/free-brands-svg-icons',
           icons: ['fab']
+        },
+        {
+          set:'@fortawesome/free-regular-svg-icons',
+          icons: ['far']
         }
       ]
     }]

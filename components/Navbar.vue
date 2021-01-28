@@ -1,8 +1,9 @@
 <template>
   <nav>
     <div class="flex justify-between pt-1 px-2">
-      <div>
-       <p>// Lundregan</p> 
+      <div class="flex">
+        <DarkmodeToggle />
+        <p class="pl-2">Lundregan</p> 
       </div>
       <div class="flex justify-around w-1/2 text-blue-600 text-md">
         <NuxtLink to="/">Home</NuxtLink>
