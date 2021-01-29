@@ -1,9 +1,9 @@
 <template>
-  <div>
-    <img :src="`/project-imgs/${project.mainImage}`" alt="">
-    <h1>{{ project.title }}</h1>
+  <div class="flex flex-col items-center justify-center">
+    <div class="flex-shrink w-1/2">
+      <img :src="`/project-imgs/${project.mainImage}`" alt="">
+    </div>
     <nuxt-content :document="project" />
-    <p>{{project.mainImage}}</p>
   </div>
 </template>
 
