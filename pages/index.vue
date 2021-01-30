@@ -5,7 +5,9 @@
       <p class="text-gray-800 dark:text-gray-300">A Next Generation Developer</p>
     </div>
     <div class="flex mt-8">
-      <button class="text-white bg-blue-600 dark:bg-purple-600 rounded m-2 p-2 shadow-md">View My Work</button>
+      <NuxtLink to="/projects">
+        <button class="text-white bg-blue-600 dark:bg-purple-600 rounded m-2 p-2 shadow-md">View My Work</button>
+      </NuxtLink>
       <NuxtLink to="/contact">
         <button class="text-white bg-blue-600 dark:bg-purple-600 rounded m-2 p-2 shadow-md">Get In Touch</button>
       </NuxtLink>
