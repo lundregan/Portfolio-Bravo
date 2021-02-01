@@ -20,6 +20,10 @@ export default {
     whitelist: ['dark-mode'],  
   },
 
+  serverMiddleware: [
+    '~/api/contact'
+  ],
+
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
 
