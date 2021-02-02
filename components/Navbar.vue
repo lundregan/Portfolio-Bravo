@@ -3,7 +3,9 @@
     <div class="flex justify-between pt-1 px-2">
       <div class="flex">
         <DarkmodeToggle />
-        <p class="pl-2 dark:text-purple-600">Lundregan</p> 
+        <NuxtLink to="/">
+          <p class="pl-2 dark:text-purple-600">Lundregan</p>
+        </NuxtLink> 
       </div>
       <div class="flex justify-around w-1/2 text-blue-600 dark:text-purple-600 text-md">
         <NuxtLink to="/">Home</NuxtLink>
