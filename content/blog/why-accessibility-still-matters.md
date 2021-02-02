@@ -1,8 +1,8 @@
 ---
 title: Why Accessibility Still Matters
+link: why-accessibility-still-matters
 synopsis: Why you should Care About Accessability
 date: 01 02 2021
-link: accessibility-matters
 ---
 
 # What Do I Mean By Accessibility?

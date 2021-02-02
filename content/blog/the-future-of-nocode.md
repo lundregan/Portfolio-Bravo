@@ -1,8 +1,8 @@
 ---
-title: The Future of No-Code
+title: The Future of NoCode
+link: the-future-of-nocode
 synopsis: My thouhts on the rise of No-Code and its future
 date: 05 02 2021
-link: nocode-future
 ---
 
 # What is No-Code?
