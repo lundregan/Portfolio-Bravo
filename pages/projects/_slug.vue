@@ -3,7 +3,7 @@
     <div class="flex-shrink w-1/2">
       <img :src="`/project-imgs/${project.mainImage}`" alt="">
     </div>
-    <nuxt-content :document="project" />
+    <nuxt-content :document="project" class="prose mt-8 dark:text-white" />
   </div>
 </template>
 
