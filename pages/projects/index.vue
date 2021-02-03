@@ -1,6 +1,6 @@
 <template>
-  <div class="w-screen flex">
-    <div v-for="project in projects" :key="project.id" class="flex-shrink m-8">
+  <div class="w-screen flex flex-wrap justify-center">
+    <div v-for="project in projects" :key="project.id" class="lg:w-1/3 m-4">
       <NuxtLink :to="`projects/${project.link}`">
         <img :src="`/project-imgs/${project.mainImage}`" :alt="project.description">
       </NuxtLink>

@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col items-center">
+  <div class="flex flex-col items-center pt-4">
       <div class="text-center border-t-4 border-b-4 border-blue-600 dark:border-purple-600 rounded-xl px-2 py-4">
           <p class="text-2xl dark:text-white">STATUS</p>
           <p class="text-4xl text-green-600">AVAILABLE</p>

@@ -1,6 +1,6 @@
 <template>
-  <div class="flex flex-col">
-    <div class="flex flex-col items-center mb-32">
+  <div class="flex flex-col px-2">
+    <div class="flex flex-col items-center">
       <font-awesome-icon :icon="['fas', 'user']" class="text-4xl text-blue-600 dark:text-purple-600"/>
       <p class="mt-2 text-xl">Ethan Lundregan.</p>
 
@@ -8,8 +8,8 @@
       <p>Someone who loves learning anything new and growing as a developer, espacially if that bring some new challenges</p>
       <p></p>
     </div>
-    <div class="flex justify-around">
-      <div v-for="value in values" :key="value.id" class="text-center w-64 grow">
+    <div class="flex justify-around flex-wrap mt-16">
+      <div v-for="value in values" :key="value.id" class="text-center w-64 grow my-8">
         <font-awesome-icon :icon="value.icon" class="text-6xl" />
         <p class="mt-8 text-blue-700 dark:text-red-600 text-3xl">{{value.title}}</p>
         <p class="mt-4">{{value.description}}</p>
