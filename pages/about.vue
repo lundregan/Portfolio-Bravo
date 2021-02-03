@@ -2,7 +2,7 @@
   <div class="flex flex-col px-2">
     <div class="flex flex-col items-center">
       <font-awesome-icon :icon="['fas', 'user']" class="text-4xl text-blue-600 dark:text-purple-600"/>
-      <p class="mt-2 text-xl">Ethan Lundregan.</p>
+      <p class="mt-2 text-xl">Ethan Lundregan</p>
 
       <p class="mt-8">A driven and passionate developer from Wales, who loves working with Vue and the Javascript ecosystem</p>
       <p>Someone who loves learning anything new and growing as a developer, espacially if that bring some new challenges</p>
