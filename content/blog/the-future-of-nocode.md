@@ -24,4 +24,4 @@ Well I believe as nocode tools become more advanced their use with developers wi
 You can put together an application quickly using a nocode tool, decreasing time spent working on the simple very reapeatable things.
 Which frees up your time to spend developing more advanced features that the nocode tool may not be equiped to handle.
 
-If you work on similiar projects you can set up templates, which can be tweaked to suit the needs of the current project. You can already do this, but being able to mouse over and drag items around as needed can save time looking through code which can become complex on larger applications.
+If you work on similiar projects you can set up templates, which can be tweaked to suit the needs of the current project. You can already do this, but being able to mouse over and drag items around as needed can save time looking through code which can become complex espacially on larger applications.
