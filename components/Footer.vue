@@ -1,15 +1,15 @@
 <template>
   <footer class="text-center font-serif flex flex-col items-center pt-8">
     <div class="flex justify-around w-64 pb-2">
-      <a href="https://twitter.com/lundregan1" target="_blank" class="grow">
+      <a href="https://twitter.com/lundregan1" target="_blank" class="grow" rel="noreferrer">
         <font-awesome-icon :icon="['fab', 'twitter']" class="text-blue-600 dark:text-blue-500 text-2xl" />
         <p class="text-xs sr-only">Twitter</p>
       </a>
-      <a href="https://github.com/lundregan" target="_blank" class="grow">
+      <a href="https://github.com/lundregan" target="_blank" class="grow" rel="noreferrer">
         <font-awesome-icon :icon="['fab', 'github']" class="text-purple-600 dark:text-purple-500 text-2xl" />
         <p class="text-xs sr-only">Github</p>
       </a>
-      <a href="https://linkedin.com/in/elundregan/" target="_blank" class="grow">
+      <a href="https://linkedin.com/in/elundregan/" target="_blank" class="grow" rel="noreferrer">
         <font-awesome-icon :icon="['fab', 'linkedin']" class="text-blue-700 dark:text-blue-500 text-2xl" />
         <p class="text-xs sr-only">LinkedIn</p>
       </a>
