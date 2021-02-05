@@ -1,7 +1,9 @@
 <template>
   <div class="flex flex-col justify-between min-h-screen bg-gray-300 dark:bg-gray-900 text-black dark:text-gray-200">
     <Navbar />
-    <Nuxt />
+    <main id="main">
+      <Nuxt />
+    </main>
     <Footer />
   </div>
 </template>
