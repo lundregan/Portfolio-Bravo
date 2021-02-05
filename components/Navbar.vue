@@ -9,7 +9,7 @@
         </NuxtLink> 
       </div>
       <div class="flex flex-wrap justify-around w-1/2 text-blue-600 dark:text-purple-400 text-md">
-        <NuxtLink v-for="link in links" :key="link.id" :to="`/${link}`">{{link}}</NuxtLink>
+        <NuxtLink v-for="link in links" :key="link.id" :to="`/${link}`" class="px-4 pb-4">{{link}}</NuxtLink>
       </div>
     </div>
   </nav>
