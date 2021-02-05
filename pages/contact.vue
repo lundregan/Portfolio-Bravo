@@ -42,6 +42,10 @@ export default {
         email: this.email,
         message: this.message  
       })
+
+      this.name = ''
+      this.email = ''
+      this.message = ''
     }
   }
 }

@@ -11,10 +11,7 @@ app.get('/', function (req, res) {
   res.status(405).json({ error: 'sorry!' })
 })
 
-app.post('/', function (req, res) {
-  console.log('api reached')
-  console.log(req.body)
-  
+app.post('/', function (req, res) {  
   sendMail(req.body.name, req.body.email, req.body.message)
 
   res.status(200).json({ 'message': 'OH YEAH' })
