@@ -1,20 +1,11 @@
-# Project-Bravo
+# Portfolio V2 - (Portfolio-Bravo)
 
-## Build Setup
+Simple portfolio showcasing my projects, containing my blog, contact form, and some information about me and my skills.
 
-```bash
-# install dependencies
-$ npm install
+SSR website, leading to a lighthouse score of:    92 - 100 - 100 - 100
 
-# serve with hot reload at localhost:3000
-$ npm run dev
+### Stack
+*Nuxt
+*Tailwind
 
-# build for production and launch server
-$ npm run build
-$ npm run start
-
-# generate static project
-$ npm run generate
-```
-
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+[View Live](https://www.lundregan.com)
